@@ -1,0 +1,234 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container1-text button {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1c1c1c;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 7px;
+}
+
+/* Header */
+
+.header {
+    background-color: #161618;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    flex-shrink: 1;
+    padding-left: 264px;
+    padding-right: 264px;
+}
+
+.left-text {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.header .left-text img {
+    height: 30px;
+}
+
+.header .left-text h1 {
+    font-size: 24px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.header h1,
+.header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+}
+
+.container1,
+.container2 {
+    padding-left: 264px;
+    padding-right: 264px;
+}
+
+/* Container 1 */
+
+.container1 {
+    background-color: #161618;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    box-shadow: 0 0 10px #ffffff;
+    padding-top: 64px;
+    padding-bottom: 100px;
+    gap: 30px;
+}
+
+.container1 .container1-image img {
+    height: 364px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #ffffff;
+}
+
+/* Container 2 */
+
+.container2 {
+    background-color: #0f1012;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;   
+    box-shadow: 0 0 10px #1c1c1c;
+    padding-top: 16px;
+    padding-bottom: 64px;
+    gap: 20px;
+}
+
+.miertype a:hover {
+    cursor: crosshair;
+}
+
+.container2-text {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.miertype-container {
+    display: flex;
+    gap: 64px;
+}
+
+.miertype img {
+    height: 200px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.miertype {
+    width: 250px;
+}
+
+.miertype h2,
+.miertype p {
+    text-align: center;
+}
+
+.miertype-container .miertype .angel {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+}
+
+.miertype-container .miertype .tyrant {
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0 0 15px #ff0000;
+}
+
+.miertype-container .miertype .ice {
+    background-color: rgb(174, 232, 255);
+    box-shadow: 0 0 15px rgb(174, 232, 255);
+}
+
+.miertype-container .miertype .asian {
+    background-color: rgb(255, 252, 169);
+    box-shadow: 0 0 15px rgb(255, 252, 169);
+}
+/* Container 3 */
+
+.container3 {
+    background-color: #161618;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(190, 190, 190);
+    box-shadow: 0 0 10px #1c1c1c;
+    padding-left: 480px;
+    padding-right: 480px;
+    flex-direction: column;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+.container3 h1 {
+    text-align: justify;
+}
+
+.container3 h2 {
+    margin-left: auto;
+    color: rgb(90, 90, 92)
+}
+
+/* Container 4 */
+
+.container4 {
+    background-color: #0f1012;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    padding-top: 64px;
+    padding-bottom: 64px;
+    box-shadow: #ffffff;
+}
+
+.container4container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 164px;
+    background-color: #7371e4;
+    padding: 32px 164px;
+    border-radius: 20px;
+}
+
+.container4-text h1,
+.container4-text p {
+    gap: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.container4-button button {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    background-color: rgba(245, 245, 220, 0);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 7px;
+    font-weight: 700;
+    border: 2px solid white;
+}
+
+.mierwalk {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    width: 400px;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f0f0f;
+    color: white;
+    box-shadow: 0 0 10px #ffffff;
+}
